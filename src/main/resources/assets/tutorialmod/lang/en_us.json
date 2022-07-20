@@ -1,0 +1,11 @@
+{
+  "item.tutorialmod.raw_chadonite": "Raw Chadonite",
+  "item.tutorialmod.chadonite": "Chadonite",
+
+  "block.tutorialmod.chadonite_block": "Block of Chad",
+  "block.tutorialmod.chadonite_ore": "Block of Chadore",
+  "block.tutorialmod.deepslate_chadonite_ore": "Block of dark Chadore",
+
+  "itemGroup.tutorialmod.moditems": "Mod Items"
+
+}
