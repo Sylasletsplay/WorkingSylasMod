@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.block.OreBlock;
-import net.minecraft.client.gl.Uniform;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,7 +13,6 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 import net.sylas.tutorialmod.Sylas;
 import net.sylas.tutorialmod.item.ModItemGroup;
-import org.apache.commons.compress.compressors.lz77support.LZ77Compressor;
 
 public class ModBlocks {
     public static final Block CHADONITE_BLOCK = registerBlock("chadonite_block",
