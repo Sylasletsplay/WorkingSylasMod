@@ -1,6 +1,8 @@
 package net.sylas.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.sylas.tutorialmod.block.ModBlocks;
+import net.sylas.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,8 @@ public class Sylas implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

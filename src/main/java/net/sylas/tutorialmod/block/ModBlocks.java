@@ -16,7 +16,7 @@ import net.sylas.tutorialmod.item.ModItemGroup;
 
 public class ModBlocks {
     public static final Block CHADONITE_BLOCK = registerBlock("chadonite_block",
-            new Block(FabricBlockSettings.of(Material.METAL).luminance((4)).strength(5f)),ModItemGroup.MODITEMS);
+            new Block(FabricBlockSettings.of(Material.METAL).luminance((4)).strength(5f)), ModItemGroup.MODITEMS);
 
     public static final Block CHADONITE_ORE = registerBlock("chadonite_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).luminance((4)).strength(5f).requiresTool(),
