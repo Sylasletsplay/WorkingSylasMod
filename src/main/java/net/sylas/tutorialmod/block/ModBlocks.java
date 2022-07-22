@@ -16,14 +16,14 @@ import net.sylas.tutorialmod.item.ModItemGroup;
 
 public class ModBlocks {
     public static final Block CHADONITE_BLOCK = registerBlock("chadonite_block",
-            new Block(FabricBlockSettings.of(Material.METAL).luminance((4)).strength(5f)), ModItemGroup.MODITEMS);
+            new Block(FabricBlockSettings.of(Material.METAL).luminance((4)).strength(5f).requiresTool()), ModItemGroup.MODITEMS);
 
     public static final Block CHADONITE_ORE = registerBlock("chadonite_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).luminance((4)).strength(5f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).luminance((4)).strength(20f).requiresTool(),
                     UniformIntProvider.create(10, 30)),ModItemGroup.MODITEMS);
 
     public static final Block DEEPSLATE_CHADONITE_ORE = registerBlock("deepslate_chadonite_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).luminance((4)).strength(7f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).luminance((4)).strength(30f).requiresTool(),
                     UniformIntProvider.create(10, 30)),ModItemGroup.MODITEMS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

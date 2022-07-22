@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:chadonite_ore",
+    "tutorialmod:deepslate_chadonite_ore",
+    "tutorialmod:chadonite_block"
+  ]
+}
